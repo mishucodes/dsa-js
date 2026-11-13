@@ -1,0 +1,5 @@
+Three Ways to represent the Time-Space Complexity of an algorithm:
+    1. Big O Notation -> Worst case scenario.
+    2. Omega Notation -> Best case scenario.
+    3. Theta Notation -> Average case scenario.
+
