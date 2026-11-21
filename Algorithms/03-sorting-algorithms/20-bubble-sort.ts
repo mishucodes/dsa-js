@@ -14,7 +14,7 @@ function bubbleSort(unsortedArray: number[]): number[]
 function iterateOneTime(numbers: number[]): boolean
 {
     let wereElementsSwapped: boolean = false;
-    for(let one = 0, two = 1; one < numbers.length; one++, two++)
+    for(let one = 0, two = 1; two < numbers.length; one++, two++)
     {
         if(numbers[one] > numbers[two])
         {
