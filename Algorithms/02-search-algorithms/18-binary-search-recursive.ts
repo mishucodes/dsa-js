@@ -7,6 +7,7 @@ function binarySearch(sortedArr: number[], target: number): number
 }
 function search(sortedArr: number[], target: number, leftPointer: number, rightPointer: number): number
 {
+    if(leftPointer >= rightPointer) return -1;
     const middleIndex = Math.floor(leftPointer + rightPointer / 2);
     if(target === sortedArr[middleIndex]) return middleIndex;
     if(target < sortedArr[middleIndex]) return search(sortedArr, target, leftPointer, middleIndex);
