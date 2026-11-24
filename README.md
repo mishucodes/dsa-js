@@ -1,5 +1,7 @@
 # DSA in JS/TS
- 
+
+> Work in progress: I'm adding algorithms as I learn them, and some solutions are still being corrected.
+
 My practice implementations of classic algorithms, written in TypeScript while learning data structures and algorithms. Each file states the problem at the top, solves it, and logs a sample result.
  
 ## Algorithms so far
